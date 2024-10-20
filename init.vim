@@ -31,7 +31,7 @@ let g:coc_global_extensions = [
 			\'coc-json', 
 			\'coc-vimlsp']
 
-set updatetime=100
+set updatetime=200
 
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
